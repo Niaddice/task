@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sync.task.syncTask.dao.SqlserverMapper">
+
+    <select id="getTradeData" resultType="com.sync.task.syncTask.bean.TradeData">
+        SELECT
+            id AS cID
+        FROM
+            project
+    </select>
+</mapper>
