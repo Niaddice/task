@@ -26,7 +26,7 @@ public class TaskApplication
 
     private final Logger logger = LoggerFactory.getLogger(DataTransferServiceImpl.class);
 
-    @Bean("mysql")
+    @Bean("mysql1")
     @ConfigurationProperties(prefix = "spring.datasource")
     DataSource masterDataSource() {
         logger.info("create mysql datasource...");
